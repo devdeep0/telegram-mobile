@@ -5,7 +5,7 @@ import Image from 'next/image';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-
+import Link from 'next/link';
 
 // import required modules
 import {Autoplay, Pagination } from 'swiper/modules';
@@ -72,7 +72,24 @@ function Main() {
          {activeButton === 'trending' && (
                 <div>
                   
-                    <h2>Trending Content</h2>
+                   <div className='bg-blue-500 h-[50px] w-full flex justify-between items-center'>
+                    <div className='flex gap-8'>
+                    <div className='h-full  w-[50px] bg-red-600'></div>
+                    <div className='h-full flex justify-center items-center'>flappy bird</div>
+                    </div>
+                    <div className=' flex flex-row gap-5'>
+                        <Link href='https://saintdevelopergames.github.io/FlappyBird/'>
+                      <button className='h-[40px] rounded-md w-[80px] bg-red-600'>
+                        Play
+                        </button>
+                        </Link>
+                        <Link href='https://docs.farcaster.xyz/learn/what-is-farcaster/frames'>
+                      <button className='h-[40px] rounded-md w-[80px] bg-red-600'>
+                        docs
+                        </button>
+                        </Link>
+                    </div>
+                   </div>
                    
                 </div>
             )}
