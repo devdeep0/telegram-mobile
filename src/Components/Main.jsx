@@ -106,7 +106,7 @@ function Main() {
                     <div className='font-bold h-full flex justify-center items-center'>KaKarot</div>
                     </div>
                     <div className=' '>
-                        <Link href='https://t.me/evmtele_bot/FlappyEVM'>
+                        <Link href='https://evmwarfare.itch.io/wallet-testing'>
                       <button className='h-[35px] rounded-md w-[80px] bg-red-600 font-bold'>
                         PLAY
                         </button>
