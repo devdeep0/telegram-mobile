@@ -70,24 +70,48 @@ function Main() {
                 }`}>MOST PLAYED</button>
          </div>
          {activeButton === 'trending' && (
-                <div>
+                <div className='mt-5 flex flex-col gap-5'>
                   
-                   <div className='bg-blue-500 h-[50px] w-full flex justify-between items-center'>
-                    <div className='flex gap-8'>
-                    <div className='h-full  w-[50px] bg-red-600'></div>
-                    <div className='h-full flex justify-center items-center'>flappy bird</div>
+                   <div className='ml-2 mr-2  h-[50px] w-auto flex justify-between items-center'>
+                    <div className='flex gap-2 h-full'>
+                    <div className='h-full rounded-md  w-[50px] bg-red-600'>
+                      <Image
+                      src='/game/vNQdsn.png'
+                      alt='game immage'
+                      height={60}
+                      width={60}
+                      />
                     </div>
-                    <div className=' flex flex-row gap-5'>
+                    <div className='font-bold h-full flex justify-center items-center'>Flappy Bird</div>
+                    </div>
+                    <div className=' '>
                         <Link href='https://saintdevelopergames.github.io/FlappyBird/'>
-                      <button className='h-[40px] rounded-md w-[80px] bg-red-600'>
-                        Play
+                      <button className='h-[35px] rounded-md w-[80px] bg-red-600 font-bold'>
+                        PLAY
                         </button>
                         </Link>
-                        <Link href='https://docs.farcaster.xyz/learn/what-is-farcaster/frames'>
-                      <button className='h-[40px] rounded-md w-[80px] bg-red-600'>
-                        docs
+                        
+                    </div>
+                   </div>
+                   <div className='ml-2 mr-2  h-[50px] w-auto flex justify-between items-center'>
+                    <div className='flex gap-2 h-full'>
+                    <div className='h-full rounded-md  w-[50px] bg-gray-600'>
+                      <Image
+                      src='/game/NFhSG5c.png'
+                      alt='game immage'
+                      height={60}
+                      width={60}
+                      />
+                    </div>
+                    <div className='font-bold h-full flex justify-center items-center'>KaKarot</div>
+                    </div>
+                    <div className=' '>
+                        <Link href='https://saintdevelopergames.github.io/FlappyBird/'>
+                      <button className='h-[35px] rounded-md w-[80px] bg-red-600 font-bold'>
+                        PLAY
                         </button>
                         </Link>
+                        
                     </div>
                    </div>
                    
